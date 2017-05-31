@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fried Cultivation", "Fried Cultivation.csproj", "{AB3400A5-BE9E-AAD1-019D-173E26E72970}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fried Cultivation.Editor", "Fried Cultivation.Editor.csproj", "{B0BA3C4F-7972-2C7F-33FD-719CE3A5C22E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB3400A5-BE9E-AAD1-019D-173E26E72970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB3400A5-BE9E-AAD1-019D-173E26E72970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB3400A5-BE9E-AAD1-019D-173E26E72970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB3400A5-BE9E-AAD1-019D-173E26E72970}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0BA3C4F-7972-2C7F-33FD-719CE3A5C22E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0BA3C4F-7972-2C7F-33FD-719CE3A5C22E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0BA3C4F-7972-2C7F-33FD-719CE3A5C22E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0BA3C4F-7972-2C7F-33FD-719CE3A5C22E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
