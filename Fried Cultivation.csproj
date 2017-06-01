@@ -218,6 +218,7 @@
     <Compile Include="Assets\NGUI\Scripts\UI\UITexture.cs" />
     <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
     <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
+    <Compile Include="Assets\PlayerData.cs" />
     <Compile Include="Assets\Scripts\BagController.cs" />
     <Compile Include="Assets\Scripts\FarmStatus.cs" />
     <Compile Include="Assets\Scripts\PaintStatus.cs" />
