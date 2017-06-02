@@ -67,6 +67,7 @@ public class FarmStatus : MonoBehaviour {
             }
             if ((DateTime.Now - StartPaintTime).TotalMinutes >= FoodNeedTime) {
                 //進入成熟狀態
+                
                 Painter.spriteName = FoodGroupSprite;//取得成熟圖
                 GetFoodData();//取得食物資料
                 status = Status.Geting;//轉換為成熟狀態
@@ -89,10 +90,18 @@ public class FarmStatus : MonoBehaviour {
             }
             else if(BagController.isPaintBool == true)//是種植bool
             {
-                Painter.spriteName = BagController.name;//取得種植名稱資料
-                StartPaintTime = DateTime.Now;//種植起始時間 為 現在時間
-                GetFoodData();//取得食物資料
-                status = Status.Painting;//轉換為種植狀態
+                
+                if (BagController.math > 0)
+                {
+                    Painter.spriteName = BagController.name;//取得種植名稱資料
+                    GetFoodData();//取得食物資料
+                    StartPaintTime = DateTime.Now;//種植起始時間 為 現在時間
+                    status = Status.Painting;//轉換為種植狀態
+                    BagController.Math_Pay();
+                    
+                }
+
+
             }
         }
         else if (status == Status.Painting)//種植中 狀態
