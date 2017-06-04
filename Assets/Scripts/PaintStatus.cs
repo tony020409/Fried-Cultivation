@@ -4,7 +4,7 @@ using UnityEngine;
 using System;
 public class PaintStatus : MonoBehaviour {
 
-    private string paintname;
+    /*private string paintname;
     private UISprite painter;
     //private Status status;
     //金錢
@@ -16,7 +16,7 @@ public class PaintStatus : MonoBehaviour {
     private UILabel MatureTimeText;
     //顯示計時
     private bool isShowTime;
-    private int i;
+    private int i;*/
 
     // Use this for initialization
     /*void Start () {
